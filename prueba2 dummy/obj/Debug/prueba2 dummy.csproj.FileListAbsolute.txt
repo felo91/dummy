@@ -1,0 +1,12 @@
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\bin\Debug\prueba2 dummy.exe.config
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\bin\Debug\prueba2 dummy.exe
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\bin\Debug\prueba2 dummy.pdb
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.csprojAssemblyReference.cache
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Form1.resources
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Properties.Resources.resources
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.csproj.GenerateResource.cache
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.csproj.CoreCompileInputs.cache
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.exe
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.pdb
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Preguntas.resources
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Revisiones.resources
