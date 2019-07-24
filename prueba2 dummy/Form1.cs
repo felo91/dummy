@@ -7,11 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.Reflection;
 
 namespace prueba2_dummy
 {
     public partial class Form1 : Form
     {
+        //para conexion con excel 
+        //Excel.Application objApp;
+        //Excel._Workbook objBook;
+
         //Creo a mi jugador
         //Jugador jugadorAct = new Jugador();
 
@@ -46,10 +52,6 @@ namespace prueba2_dummy
 
         }
 
-        static public void refresh()
-        {
-        }
-
         private void BtnPrueba_Click(object sender, EventArgs e)
         {
             if (Convert.ToString(MessageBox.Show("Hacemos una prueba visual", "Prueba", MessageBoxButtons.OKCancel)) == "OK")
@@ -79,6 +81,25 @@ namespace prueba2_dummy
             {
                 gerentes[1] = new Gerentes(lblGer2.Text);
             }
+        }
+
+        //boton de prueba para la DB de Excel
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            DBExcel excel = new DBExcel("C:\\05- Proyectos\\JAI\\dummy\\recursos\\Eventos adversos.xlsx", 1);
+
+            string[,] hola= excel.leerCeldas(1, 1,3,3);
+            excel.close();
+        }
+
+        //en el load lleno los seguros
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DBExcel excel = new DBExcel("C:\\05- Proyectos\\JAI\\dummy\\recursos\\Eventos adversos.xlsx", 1);
+
+            seguros = excel.llenarSeguros();
+            string[,] valorSeguros = excel.leerCeldas(1, 1, 3, 3);
+            excel.close();
         }
 
         private void Form1_Activated(object sender, EventArgs e)

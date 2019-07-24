@@ -5,11 +5,11 @@ namespace prueba2_dummy
     class Seguros
     {
         // defino atributos de los Gerentes
-        String area;
-        int costoProximo;
-        int cobertura;
-        int nivel;
-        int franquicia;
+        public String area = "";
+        public int costoProximo = 0;
+        public int cobertura = 0;
+        public int nivel = 0;
+        public int franquicia = 0;
 
         public Seguros() {
             area = "";

@@ -10,3 +10,4 @@ C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.e
 C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.pdb
 C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Preguntas.resources
 C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2_dummy.Revisiones.resources
+C:\05- Proyectos\JAI\dummy\prueba2 dummy\prueba2 dummy\obj\Debug\prueba2 dummy.csproj.ResolveComReference.cache
