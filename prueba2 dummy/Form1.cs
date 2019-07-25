@@ -23,8 +23,8 @@ namespace prueba2_dummy
 
         //variables principales
         int plata, level, life = 0;
-        Gerentes[] gerentes = new Gerentes[8];
-        Seguros[] seguros = new Seguros[8];
+        Gerentes[] gerentes = new Gerentes[9];
+        Seguros[] seguros = new Seguros[9];
 
         //creo punteros
         int i, j;
@@ -67,11 +67,6 @@ namespace prueba2_dummy
 
         }
 
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Button2_Click(object sender, EventArgs e)
         {
             if (gerentes[1] != null)
@@ -92,14 +87,16 @@ namespace prueba2_dummy
             excel.close();
         }
 
-        //en el load lleno los seguros
+        //en el load lleno los seguros y gerentes
         private void Form1_Load(object sender, EventArgs e)
         {
             DBExcel excel = new DBExcel("C:\\05- Proyectos\\JAI\\dummy\\recursos\\Eventos adversos.xlsx", 1);
 
             seguros = excel.llenarSeguros();
-            string[,] valorSeguros = excel.leerCeldas(1, 1, 3, 3);
+            gerentes = excel.llenarGerentes("C:\\05- Proyectos\\JAI\\dummy\\recursos\\Eventos favorables 2.xlsx");
+            //string[,] valorSeguros = excel.leerCeldas(1, 1, 3, 3);
             excel.close();
+            int a = 0;
         }
 
         private void Form1_Activated(object sender, EventArgs e)

@@ -471,7 +471,6 @@
             this.lblGer1.Size = new System.Drawing.Size(53, 13);
             this.lblGer1.TabIndex = 4;
             this.lblGer1.Text = "Comercial";
-            this.lblGer1.Click += new System.EventHandler(this.Label2_Click);
             // 
             // lblNivelGer1
             // 

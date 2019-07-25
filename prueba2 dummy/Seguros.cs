@@ -6,16 +6,19 @@ namespace prueba2_dummy
     {
         // defino atributos de los Gerentes
         public String area = "";
-        public int costoProximo = 0;
-        public int cobertura = 0;
+        public int[] costoProximo = new int [5];
+        public int[] cobertura = new int [5];
         public int nivel = 0;
-        public int franquicia = 0;
+        public int[] franquicia = new int[5];
 
         public Seguros() {
             area = "";
-            costoProximo = 0;
-            cobertura = 0;
-            franquicia = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                costoProximo[i] = 0;
+                cobertura[i] = 0;
+                franquicia[i] = 0;
+            }
             nivel = 0;
         }
 
@@ -24,9 +27,12 @@ namespace prueba2_dummy
             area = a;
             //costos coberturas y nivel tienen que ir a buscar cuales
             //son sus valores en la bd
-            costoProximo = 0;
-            cobertura = 0;
-            franquicia = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                costoProximo[i] = 0;
+                cobertura[i] = 0;
+                franquicia[i] = 0;
+            }
             nivel = 0;
         }
 
